@@ -68,7 +68,7 @@ nav ul a:hover{
 =========================== */
 
 .hero{
-    min-height:100vh;
+    min-height:80vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -136,7 +136,7 @@ nav ul a:hover{
 =========================== */
 
 section{
-    padding:90px 10%;
+    padding:60px 10%;
 }
 
 section h2{
@@ -324,6 +324,7 @@ footer{
 =========================== */
 
 @media(max-width:900px){
+
 .buttons{
     display:flex;
     flex-direction:column;
@@ -336,6 +337,7 @@ footer{
     width:250px;
     text-align:center;
 }
+
 .hero{
     flex-direction:column;
     text-align:center;
