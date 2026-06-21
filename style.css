@@ -92,6 +92,7 @@ nav ul a:hover{
     color:#f7c96a;
     margin-bottom:25px;
     min-height:90px;
+width:350px;
 }
 
 .hero-content h2::after{
@@ -354,7 +355,8 @@ footer{
 }
 
 .hero-content h2{
-    min-height:100px;
+    width:100%;
+    min-height:90px;
 }
 
 nav{
