@@ -88,9 +88,15 @@ nav ul a:hover{
     margin-bottom:20px;
 }
 
-.hero-content h2{
-    color:#f7c96a;
-    margin-bottom:25px;
+.hero-content h2::after{
+    content:"|";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
 }
 
 .hero-content p{
