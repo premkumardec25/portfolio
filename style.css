@@ -68,7 +68,7 @@ nav ul a:hover{
 =========================== */
 
 .hero{
-    min-height:80vh;
+    min-height:75vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -86,6 +86,12 @@ nav ul a:hover{
 .hero-content h1{
     font-size:60px;
     margin-bottom:20px;
+}
+
+.hero-content h2{
+    color:#f7c96a;
+    margin-bottom:25px;
+    min-height:90px;
 }
 
 .hero-content h2::after{
@@ -345,6 +351,10 @@ footer{
 
 .hero-content h1{
     font-size:45px;
+}
+
+.hero-content h2{
+    min-height:100px;
 }
 
 nav{
