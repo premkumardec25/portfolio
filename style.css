@@ -88,11 +88,21 @@ nav ul a:hover{
     margin-bottom:20px;
 }
 
+.hero-content{
+    max-width:800px;
+}
+
 .hero-content h2{
     color:#f7c96a;
-    margin-bottom:25px;
-    height:90px;
-width:350px;
+    font-size:3.2rem;
+    line-height:1.25;
+    margin-bottom:20px;
+    min-height:130px;
+}
+
+.hero-content p{
+    margin-top:15px;
+    line-height:1.8;
 }
 
 .hero-content h2::after{
